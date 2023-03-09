@@ -405,9 +405,29 @@
     text-align: center;
     align-items: center;
 }
-.about .row{
+.cream .row{
+    margin: 10px;
+    border-radius: 10px;
     margin-bottom: 100px;
     margin-top: 100px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(4, 53, 214, 0.349);
+    align-content: center;
+    background-color: black;
+    color: wheat;
+}
+.slugg .row{
+    margin-bottom: 100px;
+}
+.about{
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.about p{
+    text-align: start;
 }
 .profile-image{
     position: relative;

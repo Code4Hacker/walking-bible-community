@@ -20,7 +20,7 @@ const Slug = () => {
         </div>
     </div>
     <div className="profile-image"></div>
-    <div className="container about posting">
+    <div className="container about posting slugg">
         <div className="row">
         {
   postData ? 

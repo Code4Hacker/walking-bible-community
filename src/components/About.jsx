@@ -16,11 +16,17 @@ const About = () => {
             </div>
         </div>
         <div className="profile-image"></div>
-        <div className="container about">
+        <div className="container about cream">
             <div className="row">
-                <div className="col-xl-12">
+                <div className="col-xl-9">
                 <h1 className='title' data-aos="fade-up">I'm <span className='highlight'>University</span> Student</h1>
-                    <p data-aos="fade-up">Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
+                    <p className='bold' data-aos="fade-up">Hello everyone,</p>
+                    <p data-aos="fade-up">My name is Lazaro Songoya, and I am a church student currently studying at the University of Dodoma in Tanzania. I am pursuing a Bachelor's degree in Science in Multimedia and Animation, and I am passionate about using my creative skills to make an impact in the world.</p>
+                    <p data-aos="fade-up">In addition to my studies, I am also the owner of the Walking Bible Community. This community is dedicated to spreading the word of God and providing support and encouragement to those who seek it. Through the Walking Bible Community, I have been able to connect with people from all walks of life and make a positive difference in their lives.</p>
+                    <p data-aos="fade-up">As someone who is deeply committed to my faith, I believe that we all have a responsibility to use our talents and abilities to serve others. Whether it's through my studies, my work with the Walking Bible Community, or any other aspect of my life, I strive to live each day with purpose and meaning.</p>
+                    <p data-aos="fade-up">If you would like to connect with me or learn more about what I do, please feel free to reach out to me at <a href="mailto:lazarosongoya@gmail.com" target="_blank" rel="noopener noreferrer">lazarosongoya@gmail.com</a> . I would be honored to hear from you and share more about my journey.</p>
+                    <p data-aos="fade-up">Thank you for taking the time to read this, and I look forward to connecting with you soon.</p>
+
                 </div>
             </div>
         </div>
