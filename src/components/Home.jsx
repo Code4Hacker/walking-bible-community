@@ -5,7 +5,7 @@ import AOS from 'aos';
 const Home = () => {
     const [visitor, setVisitor] = useState(0);
     const getView = async() => {
-        const fetches = await fetch(null);
+        const fetches = await fetch("https://api.countapi.xyz/update/walkingbible/1ff1b8c4-e5dd-4126-8da8-32f2d20b2a11?amount=1");
         const data = await fetches.json();
         setVisitor(data.value);
     }
