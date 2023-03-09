@@ -512,12 +512,17 @@
     margin: 10px;
     padding: 0px;
 }
-.commenting button{
+.commenting{
+    margin: 20px;
+    margin-bottom: -10px;
+}
+.commenting .link{
     color: rgb(255, 0, 85);
-    margin: 10px;
+    padding: 15px;
+    margin: 20px;
     border-radius: 10px;
     text-transform: uppercase;
-    margin-bottom:-60px ;
+    margin-bottom:-70px ;
     background-color: rgb(5, 3, 17);
 }
 .center{
@@ -548,7 +553,7 @@
     }
 }
 @media screen and (max-width:1000px){
-.sentence, .title, .title.normal{
+.sentence{
     font-size: small;
 }  
 .individual .image img{
@@ -598,7 +603,7 @@
     height: 250px;
     object-fit: cover;
 }
-.sentence, .title, .title.normal{
+.sentence{
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 

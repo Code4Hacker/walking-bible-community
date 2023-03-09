@@ -2,11 +2,10 @@ import React, {useState, useEffect} from 'react';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
-// const visits = 'https://api.countapi.xyz/update/visitor_for_bible/6eabf1-72b2-4610-a96b?amount=1';
 const Home = () => {
     const [visitor, setVisitor] = useState(0);
     const getView = async() => {
-        const fetches = await fetch("https://api.countapi.xyz/update/visitor_for_bible/6eabf1-72b2-4610-a96b?amount=1");
+        const fetches = await fetch(null);
         const data = await fetches.json();
         setVisitor(data.value);
     }
@@ -19,7 +18,7 @@ const Home = () => {
                 <div className="contents">
                     <div className="anime-me" data-aos="zoom-out">
                         <h1>In The world of <span className='highlight'>God</span> we live for     <span className='highlight'>free</span></h1>
-                        <p className='to-be-small'>" Amani ya Bwana na iwe nanyi, milele na milele. AMEN "</p>
+                        <p className='to-be-small'>" Vijana ndio nguvu pekee na nuru ya maisha ya baadae  "</p>
 
                         <div className="viewers">
                             <p>{visitor > 0 ? visitor :'0'}</p>
@@ -37,9 +36,9 @@ const Home = () => {
                 <div className="row">
                     <div className="col-sm-12">
                         <h1 className='title text-center' data-aos="fade-up">Mambo ya <span className='highlight'>kujifunza</span></h1>
-                        <p className='text-center' data-aos="fade-up">Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
+                        <p className='text-center' data-aos="fade-up">Walking Bible Community ni jamii ya Kikristo ambayo ina msisitizo wa kusoma, kufundisha na kuishi kwa mujibu wa Neno la Mungu. Kwa hiyo, mambo muhimu ya kujifunza ndani ya jamii hii ni Kusoma na kuelewa Biblia, Kufundisha na kushiriki maarifa ya Biblia, Kuishi kwa mujibu wa Neno la Mungu, Kukua kiroho na Kuwa na ushirika na wengine.</p>
                         <div className="btn text-center">
-                            <button data-aos="fade-up"><Link to={`blog`} className="link">collaborate</Link></button>
+                            <button data-aos="fade-up"><Link to={`blog`} className="link">soma nakala</Link></button>
                         </div>
                     </div>
                 </div>
@@ -49,17 +48,17 @@ const Home = () => {
             <div className="row mrg-btn">
                 <div className="col-md-6">
                     <h1 className='title' data-aos="fade-up">Changia <span className='highlight'>Mawazo</span></h1>
-                    <p data-aos="fade-up">Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
+                    <p data-aos="fade-up">Nataka kwanza kutoa shukrani kwa kila mmoja wenu kwa kujumuika katika jamii hii ya Walking Bible. Kujifunza Neno la Mungu pamoja na kushirikiana katika safari yetu ya kiroho ni muhimu sana. Nataka kuwahimiza kuendelea kujifunza Neno la Mungu na kuiweka katika matendo. Pia, ni muhimu kwa sisi kushirikiana na wengine katika jamii yetu na kusaidia wale wanaohitaji msaada.</p>
                     <div className="btn text-center">
-                        <button data-aos="fade-up"><Link to={`blog`} className="link">collaborate</Link></button>
+                        <button data-aos="fade-up"><Link to={`blog`} className="link">soma nakala</Link></button>
                     </div>
                 </div>
                 <div className="col-md-6">
                     <div className="image-6 a" data-aos="fade-down"></div>
                 </div>
                 <div className="col-md-6">
-                    <h1 className='title' data-aos="fade-up">sifu kwa <span className='highlight'>pamoja</span></h1>
-                    <p data-aos="fade-up">Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
+                    <h1 className='title' data-aos="fade-up">Kwa <span className='highlight'>pamoja</span></h1>
+                    <p data-aos="fade-up">Elimu na Mawazo tutakayo yapata mahali hapa yatatupa nuru mpya na Nguvu ya kuanza tena hata, Umoja wetu ndio nguzo yetu ya kuendelea mbele. Kukata tamaa ni jambo ambalo hatujali kusudia kuwa nalo ndani yetu. Tushikane na tusonge mbele.</p>
                     <div className="btn text-center">
                         <button data-aos="fade-up"><Link to={`blog`} className="link">collaborate</Link></button>
                     </div>
@@ -131,7 +130,7 @@ const Home = () => {
                     <path fillRule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
             </svg>
             </div>
-            <p>All right reserved by <a href="http://geminichild.com" target="_blank" rel="noopener noreferrer">geminichild.com</a></p>
+            <p>All right reserved by <a href="https://github.com/Code4Hacker" target="_blank" rel="noopener noreferrer">geminichild.com</a></p>
         </div>
     </div>
   )
