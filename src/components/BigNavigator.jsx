@@ -20,7 +20,6 @@ const BigNavigator = ({ smash}) => {
                 <div className="list">
                     <ul>
                         <li><Link to="/" className='link'>Home</Link></li>
-                        <li><Link to="whats" className='link'>What is?</Link></li>
                         <li><Link to="about" className='link'>About</Link></li>
                         <li><Link to="blog" className='link'>Blog</Link></li>
                     </ul>
