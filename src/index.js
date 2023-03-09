@@ -2,7 +2,6 @@ import React from "react";
 import { createRoot } from 'react-dom/client';
 import App from "./App";
 import About from "./components/About";
-import Navigator from "./components/Navigator";
 import Blog from "./components/Blog";
 import Slug from "./Slug";
 import './app.css';
@@ -22,7 +21,7 @@ const router = createBrowserRouter([
     },
     {
         path:'blog',
-        element:<div><Navigator/><Loading/><Blog/></div>
+        element:<div><Loading/><Blog/></div>
     },
     {
         path:'slug/:id',

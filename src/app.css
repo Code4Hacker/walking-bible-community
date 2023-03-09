@@ -410,9 +410,9 @@
     margin-top: 100px;
 }
 .profile-image{
-    position: absolute;
-    top: 32%;
-    margin-bottom: 120px;
+    position: relative;
+    margin-top: -102px;
+    margin-bottom: 100px;
     left: 50%;
     z-index: 2;
     width: 100px;
@@ -420,20 +420,6 @@
     background-color: white;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.178);
     transform: translate(-50%, 32%);
-    background-image: url(./components/images/kenny-eliason-zFSo6bnZJTw-unsplash.jpg);
-    background-size: cover;
-    border-radius: 10px;
-}
-
-.profile-image:hover{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50vw;
-    height: 50vh;
-    background-color: white;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.178);
-    transform: translate(-50%, -50%);
     background-image: url(./components/images/kenny-eliason-zFSo6bnZJTw-unsplash.jpg);
     background-size: cover;
     border-radius: 10px;
