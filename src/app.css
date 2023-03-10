@@ -11,10 +11,10 @@
     backdrop-filter: blur(60px);
 }
 .pre-loader .log{
-    color: rgb(0, 0, 0) !important;
+    color: white !important;
 }
 .pre-loader .comment{
-    color: rgb(0, 0, 0);
+    color: white;
 }
 .log .large{
     font-weight: 900 !important;
