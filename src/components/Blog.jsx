@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Post from './Blog_posts/Post';
 import AOS from 'aos';
 import useFetch from '../useFetch';
-const API_URL = 'https://walking-bible-app.onrender.com/api/bible-posts?populate=photo';
+const API_URL = 'https://walking-bible-5k06.onrender.com/api/bible-posts?populate=photo';
 const Blog = () => {
  const {postData} = useFetch(API_URL);
   AOS.init({duration:1500});
